@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Project version="2G - 1.7.6" name="M1_Discovery_System">
+  <Target name="M1_Discovery_System" isCurrent="1">
+    <Device manufacturerId="9" manufacturerName="ST" chipId="313" chipName="STM32F103RE" boardId="" boardName=""/>
+    <BuildOption>
+      <Compile>
+        <Option name="OptimizationLevel" value="3"/>
+        <Option name="UseFPU" value="0"/>
+        <Option name="UserEditCompiler" value="-std=c99; -Wno-switch;-Wno-unused;-Wno-pointer-sign;"/>
+        <Option name="SupportCPlusplus" value="1"/>
+        <Includepaths>
+          <Includepath path="."/>
+          <Includepath path="../../freertos/source/include"/>
+          <Includepath path="../../sensor_libraries/lsm303dlhc/inc"/>
+          <Includepath path="../../sensor_libraries/l3gx/inc"/>
+          <Includepath path="../../sensor_libraries/lps331ap/inc"/>
+          <Includepath path="../../inemo_m1_sensordrivers/source/inc"/>
+          <Includepath path="../../inemo_compass/inc"/>
+          <Includepath path="../../stm32_usb-fs-device_lib/source/libraries/stm32_usb-fs-device_driver/inc"/>
+          <Includepath path="../../stm32f10x_stdperiph_lib/source/libraries/stm32f10x_stdperiph_driver/inc"/>
+          <Includepath path="../../stm32f10x_stdperiph_lib/source/libraries/cmsis/cm3/devicesupport/st/stm32f10x"/>
+          <Includepath path="../../stm32f1_virtualcom/source/inc"/>
+          <Includepath path="../source/inemo_conf"/>
+          <Includepath path="../source/inemo_core"/>
+          <Includepath path="../source/inemo_lib"/>
+          <Includepath path="../source/inemo_handlers"/>
+          <Includepath path="../source/inemo_led"/>
+          <Includepath path="../source/inemo_gatekeeper"/>
+          <Includepath path="../../inemo_ahrs_v121/inc"/>
+          <Includepath path="../../freertos/source/portable/gcc/arm_cm3"/>
+          <Includepath path="../source"/>
+        </Includepaths>
+        <DefinedSymbols>
+          <Define name="STM32F103RE"/>
+          <Define name="STM32F10X_HD"/>
+          <Define name="VECT_TAB_FLASH"/>
+          <Define name="GCC_ARM_CM3"/>
+          <Define name="Enable_SW_Mode"/>
+          <Define name="USE_DFU"/>
+          <Define name="xPortPendSVHandler=PendSV_Handler"/>
+          <Define name="vPortSVCHandler=SVC_Handler"/>
+          <Define name="CooCox"/>
+          <Define name="SUPPORT_CPLUSPLUS"/>
+          <Define name="USE_STDPERIPH_DRIVER"/>
+        </DefinedSymbols>
+      </Compile>
+      <Link useDefault="0">
+        <Option name="DiscardUnusedSection" value="0"/>
+        <Option name="UserEditLinkder" value=""/>
+        <Option name="UseMemoryLayout" value="1"/>
+        <Option name="nostartfiles" value="0"/>
+        <Option name="LTO" value="0"/>
+        <Option name="IsNewStartupCode" value="1"/>
+        <Option name="Library" value="Not use C Library"/>
+        <Option name="UserEditLinker" value="-Wl,--section-start=.SECTION251=0x0807F800; -z,max-page-size=0x1000; -lstdc++; "/>
+        <Option name="DiscardUnusedSections" value="1"/>
+        <LinkedLibraries>
+          <Libset dir="..\..\inemo_ahrs_v121\coocox_lib\" libs="inemo_m1_ahrs_lib_v121"/>
+          <Libset dir="" libs="m"/>
+        </LinkedLibraries>
+        <MemoryAreas debugInFlashNotRAM="1">
+          <Memory name="IROM1" type="ReadOnly" size="0x000FCFFF" startValue="0x08003000"/>
+          <Memory name="IRAM1" type="ReadWrite" size="0x00F17FFF" startValue="0x20000000"/>
+          <Memory name="IROM2" type="ReadOnly" size="" startValue=""/>
+          <Memory name="IRAM2" type="ReadWrite" size="" startValue=""/>
+        </MemoryAreas>
+        <LocateLinkFile path="../../../../../../../../../../coocox/coide/configuration/programdata/m1_discovery_system/arm-gcc-link.ld" type="0"/>
+      </Link>
+      <Output>
+        <Option name="OutputFileType" value="0"/>
+        <Option name="Path" value="./"/>
+        <Option name="Name" value="M1_Discovery_System"/>
+        <Option name="HEX" value="1"/>
+        <Option name="BIN" value="1"/>
+      </Output>
+      <User>
+        <UserRun name="Run#1" type="Before" checked="0" value=""/>
+        <UserRun name="Run#1" type="After" checked="0" value=""/>
+      </User>
+    </BuildOption>
+    <DebugOption>
+      <Option name="org.coocox.codebugger.gdbjtag.core.adapter" value="ST-Link"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.debugMode" value="SWD"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.clockDiv" value="1M"/>
+      <Option name="org.coocox.codebugger.gdbjtag.corerunToMain" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkgdbserver" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.userDefineGDBScript" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.targetEndianess" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkResetMode" value="Type 0: Normal"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.resetMode" value="SYSRESETREQ"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifSemihost" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifCacheRom" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ipAddress" value="127.0.0.1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.portNumber" value="2009"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.autoDownload" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.verify" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.downloadFuction" value="Erase Effected"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.defaultAlgorithm" value="./stm32f10x_hd_512.elf"/>
+    </DebugOption>
+    <ExcludeFile/>
+  </Target>
+  <Components path="./">
+    <Component id="30" name="C Library" path="" type="2"/>
+    <Component id="50" name="CMSIS core" path="" type="2"/>
+    <Component id="460" name="CMSIS Boot" path="" type="2"/>
+  </Components>
+  <Files>
+    <File name="STM32F10x_StdPeriph_Lib/src/stm32f10x_iwdg.c" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_iwdg.c" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/src/usb_regs.c" path="../../STM32_USB-FS-Device_Lib/Source/Libraries/STM32_USB-FS-Device_Driver/src/usb_regs.c" type="1"/>
+    <File name="CoIDE/cmsis_boot" path="" type="2"/>
+    <File name="STM32_USB-FS-Device_Lib/inc/otgd_fs_dev.h" path="../../STM32_USB-FS-Device_Lib/Source/Libraries/STM32_USB-FS-Device_Driver/inc/otgd_fs_dev.h" type="1"/>
+    <File name="iNEMO_Compass" path="" type="2"/>
+    <File name="STM32F1_VirtualCom/src" path="" type="2"/>
+    <File name="STM32_USB-FS-Device_Lib/inc/usb_mem.h" path="../../STM32_USB-FS-Device_Lib/Source/Libraries/STM32_USB-FS-Device_Driver/inc/usb_mem.h" type="1"/>
+    <File name="iNEMO_M1_SensorDrivers/inc/iNEMO_I2C_Driver.h" path="../../iNEMO_M1_SensorDrivers/Source/inc/iNEMO_I2C_Driver.h" type="1"/>
+    <File name="FreeRTOS/include/semphr.h" path="../../FreeRTOS/Source/include/semphr.h" type="1"/>
+    <File name="iNEMO_M1_SensorDrivers/src/iNEMO_I2C_Driver.c" path="../../iNEMO_M1_SensorDrivers/Source/src/iNEMO_I2C_Driver.c" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/src/stm32f10x_i2c.c" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_i2c.c" type="1"/>
+    <File name="Source/iNEMO_Handlers" path="" type="2"/>
+    <File name="iNEMO_Compass/inc" path="" type="2"/>
+    <File name="iNemo_AHRS_v121/src" path="" type="2"/>
+    <File name="FreeRTOS/portable/MemMang" path="" type="2"/>
+    <File name="STM32F10x_StdPeriph_Lib/inc/stm32f10x_dac.h" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_dac.h" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/src/otgd_fs_pcd.c" path="../../STM32_USB-FS-Device_Lib/Source/Libraries/STM32_USB-FS-Device_Driver/src/otgd_fs_pcd.c" type="1"/>
+    <File name="FreeRTOS/FreeRTOSConfig.h" path="../Source/FreeRTOSConfig.h" type="1"/>
+    <File name="iNemo_Sensors_Lib/L3Gx/src" path="" type="2"/>
+    <File name="Source" path="" type="2"/>
+    <File name="STM32F10x_StdPeriph_Lib/src/stm32f10x_pwr.c" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_pwr.c" type="1"/>
+    <File name="CoIDE/cmsis/core_cm3.h" path="cmsis/core_cm3.h" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/inc/usb_int.h" path="../../STM32_USB-FS-Device_Lib/Source/Libraries/STM32_USB-FS-Device_Driver/inc/usb_int.h" type="1"/>
+    <File name="Source/iNEMO_Handlers/iNemoHandlers.h" path="../Source/iNEMO_Handlers/iNemoHandlers.h" type="1"/>
+    <File name="Source/position_get.c" path="../../../ahrs_test/M1_Discovery_System/Source/position_get.c" type="1"/>
+    <File name="Source/position_get.h" path="../../../ahrs_test/M1_Discovery_System/Source/position_get.h" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib" path="" type="2"/>
+    <File name="FreeRTOS/include/StackMacros.h" path="../../FreeRTOS/Source/include/StackMacros.h" type="1"/>
+    <File name="iNEMO_M1_SensorDrivers/src" path="" type="2"/>
+    <File name="iNemo_AHRS_v121" path="" type="2"/>
+    <File name="STM32_USB-FS-Device_Lib/inc/otgd_fs_pcd.h" path="../../STM32_USB-FS-Device_Lib/Source/Libraries/STM32_USB-FS-Device_Driver/inc/otgd_fs_pcd.h" type="1"/>
+    <File name="FreeRTOS/include/queue.h" path="../../FreeRTOS/Source/include/queue.h" type="1"/>
+    <File name="STM32F1_VirtualCom/src/STM32F1_VC_Istr.c" path="../../STM32F1_VirtualCom/Source/src/STM32F1_VC_Istr.c" type="1"/>
+    <File name="iNemo_Sensors_Lib/LPS331AP/src/LPS331AP.c" path="../../Sensor_Libraries/LPS331AP/src/LPS331AP.c" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/inc/stm32f10x_exti.h" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_exti.h" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/src/usb_core.c" path="../../STM32_USB-FS-Device_Lib/Source/Libraries/STM32_USB-FS-Device_Driver/src/usb_core.c" type="1"/>
+    <File name="FreeRTOS/portable/GCC_CM3" path="" type="2"/>
+    <File name="FreeRTOS/include/croutine.h" path="../../FreeRTOS/Source/include/croutine.h" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/inc/stm32f10x_cec.h" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_cec.h" type="1"/>
+    <File name="iNEMO_M1_SensorDrivers/inc/HAL_L3Gx.h" path="../../iNEMO_M1_SensorDrivers/Source/inc/HAL_L3Gx.h" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/inc/usb_core.h" path="../../STM32_USB-FS-Device_Lib/Source/Libraries/STM32_USB-FS-Device_Driver/inc/usb_core.h" type="1"/>
+    <File name="Source/iNEMO_Gatekeeper" path="" type="2"/>
+    <File name="STM32F10x_StdPeriph_Lib/src/stm32f10x_rtc.c" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rtc.c" type="1"/>
+    <File name="STM32F1_VirtualCom/src/STM32F1_VC_Pwr.c" path="../../STM32F1_VirtualCom/Source/src/STM32F1_VC_Pwr.c" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/src/stm32f10x_sdio.c" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_sdio.c" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/inc/stm32f10x_rcc.h" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_rcc.h" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/src/stm32f10x_dma.c" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dma.c" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/inc/usb_def.h" path="../../STM32_USB-FS-Device_Lib/Source/Libraries/STM32_USB-FS-Device_Driver/inc/usb_def.h" type="1"/>
+    <File name="iNEMO_M1_SensorDrivers/inc/HAL_LSM303DLHC.h" path="../../iNEMO_M1_SensorDrivers/Source/inc/HAL_LSM303DLHC.h" type="1"/>
+    <File name="STM32F1_VirtualCom/inc/STM32F1_VC_Desc.h" path="../../STM32F1_VirtualCom/Source/inc/STM32F1_VC_Desc.h" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/src/otgd_fs_cal.c" path="../../STM32_USB-FS-Device_Lib/Source/Libraries/STM32_USB-FS-Device_Driver/src/otgd_fs_cal.c" type="1"/>
+    <File name="iNEMO_Compass/src/iNEMO_Compass.c" path="../../iNEMO_Compass/src/iNEMO_Compass.c" type="1"/>
+    <File name="FreeRTOS/event_groups.c" path="../../FreeRTOS/Source/event_groups.c" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/src/stm32f10x_gpio.c" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_gpio.c" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/src/stm32f10x_can.c" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_can.c" type="1"/>
+    <File name="STM32F1_VirtualCom/inc" path="" type="2"/>
+    <File name="iNEMO_M1_SensorDrivers" path="" type="2"/>
+    <File name="STM32F10x_StdPeriph_Lib/inc/stm32f10x_usart.h" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_usart.h" type="1"/>
+    <File name="Source/iNEMO_Button.c" path="../../../ahrs_test/iNEMO_M1_DFU/Source/iNEMO_Button/src/iNEMO_Button.c" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/inc" path="" type="2"/>
+    <File name="Source/stm32f10x_it.h" path="../Source/stm32f10x_it.h" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/inc/stm32f10x_iwdg.h" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_iwdg.h" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/inc/stm32f10x_rtc.h" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_rtc.h" type="1"/>
+    <File name="CoIDE" path="" type="2"/>
+    <File name="Source/stm32f10x_it.c" path="../Source/stm32f10x_it.c" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/inc/stm32f10x_i2c.h" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_i2c.h" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/src/otgd_fs_int.c" path="../../STM32_USB-FS-Device_Lib/Source/Libraries/STM32_USB-FS-Device_Driver/src/otgd_fs_int.c" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/src/stm32f10x_tim.c" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_tim.c" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/inc/stm32f10x_wwdg.h" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_wwdg.h" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/inc/stm32f10x_gpio.h" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_gpio.h" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/src" path="" type="2"/>
+    <File name="iNemo_AHRS_v121/src/iNEMO_AHRS_MemMan_2.c" path="../../iNEMO_AHRS_v121/src/iNEMO_AHRS_MemMan_2.c" type="1"/>
+    <File name="CoIDE/cmsis/core_cmFunc.h" path="cmsis/core_cmFunc.h" type="1"/>
+    <File name="iNEMO_M1_SensorDrivers/src/iNemo_SPI_Driver.c" path="../../iNEMO_M1_SensorDrivers/Source/src/iNemo_SPI_Driver.c" type="1"/>
+    <File name="FreeRTOS/timers.c" path="../../FreeRTOS/Source/timers.c" type="1"/>
+    <File name="Source/iNEMO_Lib" path="" type="2"/>
+    <File name="STM32_USB-FS-Device_Lib/src/usb_init.c" path="../../STM32_USB-FS-Device_Lib/Source/Libraries/STM32_USB-FS-Device_Driver/src/usb_init.c" type="1"/>
+    <File name="Source/utils.h" path="../Source/utils.h" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/src/stm32f10x_bkp.c" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_bkp.c" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/src/stm32f10x_usart.c" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_usart.c" type="1"/>
+    <File name="Source/iNEMO_Led" path="" type="2"/>
+    <File name="iNemo_Sensors_Lib/LSM303DLHC" path="" type="2"/>
+    <File name="STM32F10x_StdPeriph_Lib/src/stm32f10x_adc.c" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_adc.c" type="1"/>
+    <File name="Source/iNEMO_Gatekeeper/UsbGatekeeper.c" path="../Source/iNEMO_Gatekeeper/UsbGatekeeper.c" type="1"/>
+    <File name="FreeRTOS/include/task.h" path="../../FreeRTOS/Source/include/task.h" type="1"/>
+    <File name="STM32F1_VirtualCom/inc/STM32F1_VC_Pwr.h" path="../../STM32F1_VirtualCom/Source/inc/STM32F1_VC_Pwr.h" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/src/stm32f10x_dbgmcu.c" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dbgmcu.c" type="1"/>
+    <File name="Source/utils.c" path="../Source/utils.c" type="1"/>
+    <File name="CoIDE/cmsis/core_cmInstr.h" path="cmsis/core_cmInstr.h" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/inc/usb_sil.h" path="../../STM32_USB-FS-Device_Lib/Source/Libraries/STM32_USB-FS-Device_Driver/inc/usb_sil.h" type="1"/>
+    <File name="Source/iNEMO_Handlers/iNemoHandlers.c" path="../Source/iNEMO_Handlers/iNemoHandlers.c" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/inc/stm32f10x_crc.h" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_crc.h" type="1"/>
+    <File name="STM32F1_VirtualCom/inc/STM32F1_VC_Prop.h" path="../../STM32F1_VirtualCom/Source/inc/STM32F1_VC_Prop.h" type="1"/>
+    <File name="FreeRTOS/include/FreeRTOS.h" path="../../FreeRTOS/Source/include/FreeRTOS.h" type="1"/>
+    <File name="iNemo_Sensors_Lib/LPS331AP/inc" path="" type="2"/>
+    <File name="Source/iNEMO_Gatekeeper/iNemoGatekeeper.h" path="../Source/iNEMO_Gatekeeper/iNemoGatekeeper.h" type="1"/>
+    <File name="Source/iNEMO_Conf/iNemoConf.h" path="../Source/iNEMO_Conf/iNemoConf.h" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/inc/otgd_fs_regs.h" path="../../STM32_USB-FS-Device_Lib/Source/Libraries/STM32_USB-FS-Device_Driver/inc/otgd_fs_regs.h" type="1"/>
+    <File name="FreeRTOS/croutine.c" path="../../FreeRTOS/Source/croutine.c" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/inc/stm32f10x_can.h" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_can.h" type="1"/>
+    <File name="STM32F1_VirtualCom/inc/STM32F1_VC_General.h" path="../../STM32F1_VirtualCom/Source/inc/STM32F1_VC_General.h" type="1"/>
+    <File name="Source/iNEMO_Button.h" path="../../../ahrs_test/iNEMO_M1_DFU/Source/iNEMO_Button/inc/iNEMO_Button.h" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/src/usb_int.c" path="../../STM32_USB-FS-Device_Lib/Source/Libraries/STM32_USB-FS-Device_Driver/src/usb_int.c" type="1"/>
+    <File name="FreeRTOS/portable" path="" type="2"/>
+    <File name="CoIDE/cmsis_boot/stm32f10x.h" path="cmsis_boot/stm32f10x.h" type="1"/>
+    <File name="iNemo_Sensors_Lib/LSM303DLHC/src" path="" type="2"/>
+    <File name="STM32F10x_StdPeriph_Lib/src/stm32f10x_dac.c" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_dac.c" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/inc/stm32f10x_sdio.h" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_sdio.h" type="1"/>
+    <File name="CoIDE/cmsis_boot/stm32f10x_conf.h" path="cmsis_boot/stm32f10x_conf.h" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/src/misc.c" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/src/misc.c" type="1"/>
+    <File name="CoIDE/syscalls/syscalls.c" path="syscalls/syscalls.c" type="1"/>
+    <File name="Source/iNEMO_Led/iNemoLed.h" path="../Source/iNemo_Led/iNemoLed.h" type="1"/>
+    <File name="Source/iNEMO_Lib/iNemoLib.h" path="../Source/iNEMO_Lib/iNemoLib.h" type="1"/>
+    <File name="iNemo_AHRS_v121/inc/iNEMO_AHRS.h" path="../../iNEMO_AHRS_v121/inc/iNEMO_AHRS.h" type="1"/>
+    <File name="iNemo_Sensors_Lib/LSM303DLHC/src/LSM303DLHC.c" path="../../Sensor_Libraries/LSM303DLHC/src/LSM303DLHC.c" type="1"/>
+    <File name="Source/iNEMO_Core/iNemo.c" path="../Source/iNemo_Core/iNemo.c" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/inc/stm32f10x_adc.h" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_adc.h" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/src/usb_mem.c" path="../../STM32_USB-FS-Device_Lib/Source/Libraries/STM32_USB-FS-Device_Driver/src/usb_mem.c" type="1"/>
+    <File name="iNemo_Sensors_Lib/LSM303DLHC/inc/LSM303DLHC.h" path="../../Sensor_Libraries/LSM303DLHC/inc/LSM303DLHC.h" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/inc/stm32f10x_dbgmcu.h" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_dbgmcu.h" type="1"/>
+    <File name="FreeRTOS/list.c" path="../../FreeRTOS/Source/list.c" type="1"/>
+    <File name="STM32F1_VirtualCom/inc/usb_conf.h" path="../../STM32F1_VirtualCom/Source/inc/usb_conf.h" type="1"/>
+    <File name="iNEMO_M1_SensorDrivers/inc/HAL_LPS331AP.h" path="../../iNEMO_M1_SensorDrivers/Source/inc/HAL_LPS331AP.h" type="1"/>
+    <File name="iNemo_Sensors_Lib/L3Gx/src/L3Gx.c" path="../../Sensor_Libraries/L3Gx/src/L3Gx.c" type="1"/>
+    <File name="Source/iNEMO_Lib/iNemoLib.c" path="../Source/iNEMO_Lib/iNemoLib.c" type="1"/>
+    <File name="iNemo_Sensors_Lib/LSM303DLHC/inc" path="" type="2"/>
+    <File name="STM32F10x_StdPeriph_Lib/inc/stm32f10x_tim.h" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_tim.h" type="1"/>
+    <File name="FreeRTOS/queue.c" path="../../FreeRTOS/Source/queue.c" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/inc/stm32f10x_fsmc.h" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_fsmc.h" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/src/stm32f10x_rcc.c" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_rcc.c" type="1"/>
+    <File name="FreeRTOS/include/mpu_wrappers.h" path="../../FreeRTOS/Source/include/mpu_wrappers.h" type="1"/>
+    <File name="Source/STM32F1_VC_Conf.h" path="../Source/STM32F1_VC_Conf.h" type="1"/>
+    <File name="iNEMO_M1_SensorDrivers/inc" path="" type="2"/>
+    <File name="iNemo_Sensors_Lib/L3Gx" path="" type="2"/>
+    <File name="Source/iNEMO_Core/iNemo.h" path="../Source/iNemo_Core/iNemo.h" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib" path="" type="2"/>
+    <File name="iNEMO_M1_SensorDrivers/inc/iNEMO_SPI_Driver.h" path="../../iNEMO_M1_SensorDrivers/Source/inc/iNEMO_SPI_Driver.h" type="1"/>
+    <File name="FreeRTOS/include/projdefs.h" path="../../FreeRTOS/Source/include/projdefs.h" type="1"/>
+    <File name="STM32F1_VirtualCom" path="" type="2"/>
+    <File name="STM32_USB-FS-Device_Lib/src/usb_sil.c" path="../../STM32_USB-FS-Device_Lib/Source/Libraries/STM32_USB-FS-Device_Driver/src/usb_sil.c" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/src/stm32f10x_cec.c" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_cec.c" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/src/stm32f10x_flash.c" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_flash.c" type="1"/>
+    <File name="STM32F1_VirtualCom/src/STM32F1_VC_Desc.c" path="../../STM32F1_VirtualCom/Source/src/STM32F1_VC_Desc.c" type="1"/>
+    <File name="Source/iNEMO_Conf" path="" type="2"/>
+    <File name="Source/iNEMO_Led/iNemoLed.c" path="../Source/iNemo_Led/iNemoLed.c" type="1"/>
+    <File name="iNemo_Sensors_Lib/LPS331AP" path="" type="2"/>
+    <File name="CoIDE/cmsis_boot/startup" path="" type="2"/>
+    <File name="CoIDE/syscalls" path="" type="2"/>
+    <File name="iNemo_Sensors_Lib/L3Gx/inc/L3Gx.h" path="../../Sensor_Libraries/L3Gx/inc/L3Gx.h" type="1"/>
+    <File name="CoIDE/cmsis_boot/startup/startup_stm32f10x_hd.c" path="cmsis_boot/startup/startup_stm32f10x_hd.c" type="1"/>
+    <File name="CoIDE/cmsis_boot/system_stm32f10x.h" path="cmsis_boot/system_stm32f10x.h" type="1"/>
+    <File name="iNemo_AHRS_v121/inc" path="" type="2"/>
+    <File name="STM32F10x_StdPeriph_Lib/src/stm32f10x_fsmc.c" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_fsmc.c" type="1"/>
+    <File name="FreeRTOS/portable/MemMang/heap_2.c" path="../../FreeRTOS/Source/portable/MemMang/heap_2.c" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/inc/stm32f10x_pwr.h" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_pwr.h" type="1"/>
+    <File name="STM32F1_VirtualCom/src/STM32F1_VC_Endp.c" path="../../STM32F1_VirtualCom/Source/src/STM32F1_VC_Endp.c" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/src/stm32f10x_spi.c" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_spi.c" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/inc/stm32f10x_bkp.h" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_bkp.h" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/src" path="" type="2"/>
+    <File name="STM32F10x_StdPeriph_Lib/src/stm32f10x_wwdg.c" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_wwdg.c" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/src/otgd_fs_dev.c" path="../../STM32_USB-FS-Device_Lib/Source/Libraries/STM32_USB-FS-Device_Driver/src/otgd_fs_dev.c" type="1"/>
+    <File name="STM32F1_VirtualCom/src/STM32F1_VC_Prop.c" path="../../STM32F1_VirtualCom/Source/src/STM32F1_VC_Prop.c" type="1"/>
+    <File name="iNEMO_Compass/inc/iNEMO_Compass.h" path="../../iNEMO_Compass/inc/iNEMO_Compass.h" type="1"/>
+    <File name="iNemo_Sensors_Lib/LPS331AP/inc/LPS331AP.h" path="../../Sensor_Libraries/LPS331AP/inc/LPS331AP.h" type="1"/>
+    <File name="FreeRTOS/portable/GCC_CM3/port.c" path="../../FreeRTOS/Source/portable/GCC/ARM_CM3/port.c" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/inc/usb_lib.h" path="../../STM32_USB-FS-Device_Lib/Source/Libraries/STM32_USB-FS-Device_Driver/inc/usb_lib.h" type="1"/>
+    <File name="FreeRTOS/portable/GCC_CM3/portmacro.h" path="../../FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h" type="1"/>
+    <File name="STM32F1_VirtualCom/src/STM32F1_VC_General.c" path="../../STM32F1_VirtualCom/Source/src/STM32F1_VC_General.c" type="1"/>
+    <File name="FreeRTOS/tasks.c" path="../../FreeRTOS/Source/tasks.c" type="1"/>
+    <File name="iNemo_Sensors_Lib" path="" type="2"/>
+    <File name="STM32F10x_StdPeriph_Lib/inc/stm32f10x_dma.h" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_dma.h" type="1"/>
+    <File name="FreeRTOS/include/list.h" path="../../FreeRTOS/Source/include/list.h" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/inc/usb_regs.h" path="../../STM32_USB-FS-Device_Lib/Source/Libraries/STM32_USB-FS-Device_Driver/inc/usb_regs.h" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/inc/usb_type.h" path="../../STM32_USB-FS-Device_Lib/Source/Libraries/STM32_USB-FS-Device_Driver/inc/usb_type.h" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/inc/usb_init.h" path="../../STM32_USB-FS-Device_Lib/Source/Libraries/STM32_USB-FS-Device_Driver/inc/usb_init.h" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/inc/otgd_fs_cal.h" path="../../STM32_USB-FS-Device_Lib/Source/Libraries/STM32_USB-FS-Device_Driver/inc/otgd_fs_cal.h" type="1"/>
+    <File name="FreeRTOS/include/portable.h" path="../../FreeRTOS/Source/include/portable.h" type="1"/>
+    <File name="FreeRTOS/include/timers.h" path="../../FreeRTOS/Source/include/timers.h" type="1"/>
+    <File name="FreeRTOS/include" path="" type="2"/>
+    <File name="iNEMO_Compass/src" path="" type="2"/>
+    <File name="STM32F10x_StdPeriph_Lib/src/stm32f10x_crc.c" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_crc.c" type="1"/>
+    <File name="CoIDE/cmsis" path="" type="2"/>
+    <File name="CoIDE/cmsis_boot/system_stm32f10x.c" path="../Source/runtime/system_stm32f10x.c" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/inc/stm32f10x_flash.h" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_flash.h" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/inc" path="" type="2"/>
+    <File name="iNemo_Sensors_Lib/LPS331AP/src" path="" type="2"/>
+    <File name="Source/main.c" path="../Source/main.c" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/inc/misc.h" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/inc/misc.h" type="1"/>
+    <File name="STM32F10x_StdPeriph_Lib/inc/stm32f10x_spi.h" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/inc/stm32f10x_spi.h" type="1"/>
+    <File name="Source/iNEMO_Core" path="" type="2"/>
+    <File name="iNemo_Sensors_Lib/L3Gx/inc" path="" type="2"/>
+    <File name="STM32F10x_StdPeriph_Lib/src/stm32f10x_exti.c" path="../../STM32F10x_StdPeriph_Lib/Source/Libraries/STM32F10x_StdPeriph_Driver/src/stm32f10x_exti.c" type="1"/>
+    <File name="FreeRTOS" path="" type="2"/>
+    <File name="STM32F1_VirtualCom/inc/STM32F1_VC_Istr.h" path="../../STM32F1_VirtualCom/Source/inc/STM32F1_VC_Istr.h" type="1"/>
+    <File name="STM32_USB-FS-Device_Lib/inc/otgd_fs_int.h" path="../../STM32_USB-FS-Device_Lib/Source/Libraries/STM32_USB-FS-Device_Driver/inc/otgd_fs_int.h" type="1"/>
+  </Files>
+</Project>

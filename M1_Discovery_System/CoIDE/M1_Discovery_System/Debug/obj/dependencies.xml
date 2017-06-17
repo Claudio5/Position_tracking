@@ -1,0 +1,1388 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\iNEMO_Compass\inc /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System\CoIDE\cmsis /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System\Source\iNEMO_Lib /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\Sensor_Libraries\L3Gx\inc /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\STM32F1_VirtualCom\Source\inc /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System\Source\iNEMO_Conf /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\iNEMO_AHRS_v121\inc /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\Sensor_Libraries\LSM303DLHC\inc /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\Sensor_Libraries\L3Gx /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\FreeRTOS\Source\portable\GCC\ARM_CM3 /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System\Source /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System\Source\iNemo_Led /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\iNEMO_AHRS_v121 /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\FreeRTOS\Source\portable /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\Sensor_Libraries /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\Sensor_Libraries\LSM303DLHC /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System\Source\iNEMO_Handlers /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System\CoIDE /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\STM32F10x_StdPeriph_Lib\Source\Libraries /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\STM32F1_VirtualCom /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\Sensor_Libraries\LPS331AP\inc /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\FreeRTOS\Source\include /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\STM32_USB-FS-Device_Lib\Source\Libraries /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System\Source\iNEMO_Gatekeeper /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\iNEMO_M1_SensorDrivers /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\iNEMO_M1_SensorDrivers\Source\inc /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\STM32F1_VirtualCom\Source /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\iNEMO_M1_SensorDrivers\Source /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\FreeRTOS\Source /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System\Source\iNemo_Core /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\iNEMO_Compass /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\FreeRTOS\Source\portable\GCC /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\FreeRTOS /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System\CoIDE\cmsis_boot /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\Sensor_Libraries\LPS331AP">
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\src\otgd_fs_pcd.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_cal.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_pcd.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Pwr.h" lastModified="1464d405c10">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\src\usb_init.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\task.h" lastModified="1459447c270">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\list.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\src\usb_sil.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\HAL_L3Gx.h" lastModified="14647c0cc20">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\iNEMO_I2C_Driver.h"/>
+         <include file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\iNEMO_SPI_Driver.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\list.h" lastModified="1459447b2d0">
+      </source>
+      <source file="..\..\..\..\..\Sensor_Libraries\L3Gx\src\L3Gx.c" lastModified="1464c787830">
+         <include file="..\..\..\..\..\Sensor_Libraries\L3Gx\inc\L3Gx.h"/>
+      </source>
+      <source file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\HAL_LSM303DLHC.h" lastModified="1464ddc55c0">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\iNEMO_I2C_Driver.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\portable\GCC\ARM_CM3\portmacro.h" lastModified="1459447baa0">
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\src\otgd_fs_cal.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_cal.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\usb_conf.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_regs.h"/>
+      </source>
+      <source file="..\..\..\..\..\Sensor_Libraries\LSM303DLHC\src\LSM303DLHC.c" lastModified="1464c59bd00">
+         <include file="..\..\..\..\..\Sensor_Libraries\LSM303DLHC\inc\LSM303DLHC.h"/>
+      </source>
+      <source file="..\..\..\..\Source\stm32f10x_it.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\mpu_wrappers.h" lastModified="1459447b2d0">
+      </source>
+      <source file="..\..\..\..\Source\stm32f10x_it.c" lastModified="1454abab810">
+         <include file="..\..\..\..\Source\stm32f10x_it.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="146233a3620">
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h" lastModified="1454abab810">
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_int.h" lastModified="1454abab810">
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\HAL_LPS331AP.h" lastModified="1464ddc55c0">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\iNEMO_I2C_Driver.h"/>
+         <include file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\iNEMO_SPI_Driver.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_dev.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_type.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\croutine.h" lastModified="1459447b2d0">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\list.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_regs.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_type.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\Sensor_Libraries\LPS331AP\src\LPS331AP.c" lastModified="1466c4f70a0">
+         <include file="..\..\..\..\..\Sensor_Libraries\LPS331AP\inc\LPS331AP.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\src\usb_mem.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_type.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\iNEMO_SPI_Driver.h" lastModified="1464813ddc0">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\task.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Istr.h" lastModified="1464d3aaef0">
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_regs.h" lastModified="1454abab810">
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_sil.h" lastModified="1454abab810">
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Prop.h" lastModified="1464d325250">
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\src\STM32F1_VC_Endp.c" lastModified="1464d325250">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Desc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\Source\runtime\system_stm32f10x.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_init.h" lastModified="1454abab810">
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Desc.h" lastModified="1464c49bf40">
+         <include file="..\..\..\..\Source\STM32F1_VC_Conf.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\event_groups.h" lastModified="1459447b2d0">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\timers.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\iNEMO_I2C_Driver.h" lastModified="14648099cc0">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\src\STM32F1_VC_Istr.c" lastModified="1464d35ccf0">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Prop.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Pwr.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Istr.h"/>
+      </source>
+      <source file="..\..\..\..\Source\FreeRTOSConfig.h" lastModified="1454abab810">
+      </source>
+      <source file="..\..\..\..\Source\stm32f10x_conf.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\src\STM32F1_VC_Prop.c" lastModified="1464d35ccf0">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Prop.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_General.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Pwr.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\usb_conf.h" lastModified="1464d4f0210">
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\src\STM32F1_VC_Desc.c" lastModified="1464c4254d0">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Desc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\src\STM32F1_VC_Pwr.c" lastModified="1464d35ccf0">
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Pwr.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_General.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\Source\iNEMO_Gatekeeper\UsbGatekeeper.c" lastModified="1464c6628b0">
+         <include file="..\..\..\..\Source\iNEMO_Gatekeeper\iNemoGatekeeper.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_General.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\semphr.h" lastModified="1459447b2d0">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\queue.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\timers.h" lastModified="1459447b2d0">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\task.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_pcd.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_regs.h"/>
+      </source>
+      <source file="..\..\..\..\Source\STM32F1_VC_Conf.h" lastModified="1464be24ae0">
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\src\otgd_fs_dev.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_dev.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_regs.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_cal.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_pcd.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_mem.h" lastModified="1454abab810">
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\croutine.c" lastModified="1459447b2d0">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\task.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\croutine.h"/>
+      </source>
+      <source file="..\..\..\..\Source\iNemo_Led\iNemoLed.h" lastModified="146489959a0">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\src\usb_core.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\..\Source\iNemo_Led\iNemoLed.c" lastModified="146489959a0">
+         <include file="..\..\..\..\Source\iNemo_Led\iNemoLed.h"/>
+         <include file="..\..\..\..\Source\iNEMO_Conf\iNemoConf.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_cal.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_type.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h" lastModified="1454abab810">
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\Source\iNEMO_Conf\iNemoConf.h" lastModified="146487f78a0">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\task.h"/>
+      </source>
+      <source file="..\..\..\..\Source\utils.h" lastModified="1464c3c2ab0">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\Source\utils.c" lastModified="1464d1f5ec0">
+         <include file="..\..\..\..\Source\utils.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_def.h" lastModified="1454abab810">
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_int.h" lastModified="1454abab810">
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\portable\GCC\ARM_CM3\port.c" lastModified="1459447baa0">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\task.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\src\usb_regs.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\StackMacros.h" lastModified="1459447b2d0">
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\src\usb_int.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\queue.h" lastModified="1459447b2d0">
+      </source>
+      <source file="..\..\..\..\Source\iNEMO_Gatekeeper\iNemoGatekeeper.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\task.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\queue.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\projdefs.h" lastModified="1459447b2d0">
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_General.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Desc.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Istr.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_cec.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\iNEMO_Compass\inc /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System\CoIDE\cmsis /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System\Source\iNEMO_Lib /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\Sensor_Libraries\L3Gx\inc /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\STM32F1_VirtualCom\Source\inc /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\iNEMO_AHRS_v121\inc /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System\Source\iNEMO_Conf /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\Sensor_Libraries\LSM303DLHC\inc /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\Sensor_Libraries\L3Gx /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\FreeRTOS\Source\portable\GCC\ARM_CM3 /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System\Source /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System\Source\iNemo_Led /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\iNEMO_AHRS_v121 /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\FreeRTOS\Source\portable /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\ahrs_test\M1_Discovery_System /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\Sensor_Libraries\LSM303DLHC /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\Sensor_Libraries /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System\Source\iNEMO_Handlers /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System\CoIDE /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\STM32F10x_StdPeriph_Lib\Source\Libraries /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\STM32F1_VirtualCom /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\Sensor_Libraries\LPS331AP\inc /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\FreeRTOS\Source\include /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\STM32_USB-FS-Device_Lib\Source\Libraries /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System\Source\iNEMO_Gatekeeper /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\iNEMO_M1_SensorDrivers /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\iNEMO_M1_SensorDrivers\Source\inc /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\STM32F1_VirtualCom\Source /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\ahrs_test\M1_Discovery_System\Source /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\iNEMO_M1_SensorDrivers\Source /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\FreeRTOS\Source /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System\Source\iNemo_Core /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\iNEMO_Compass /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\FreeRTOS\Source\portable\GCC /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\FreeRTOS /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\ahrs_test /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System\CoIDE\cmsis_boot /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\Sensor_Libraries\LPS331AP">
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\src\otgd_fs_pcd.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_cal.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_pcd.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Pwr.h" lastModified="1464d405c10">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\src\usb_init.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\task.h" lastModified="1459447c270">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\list.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\src\usb_sil.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\..\Source\iNemo_Core\iNemo.c" lastModified="15c8d7ddd8b">
+         <include file="..\..\..\..\Source\iNemo_Core\iNemo.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\task.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\queue.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\semphr.h"/>
+         <include file="..\..\..\..\Source\iNEMO_Handlers\iNemoHandlers.h"/>
+         <include file="..\..\..\..\Source\utils.h"/>
+         <include file="..\..\..\..\Source\iNEMO_Lib\iNemoLib.h"/>
+         <include file="..\..\..\..\Source\iNEMO_Gatekeeper\iNemoGatekeeper.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\HAL_L3Gx.h" lastModified="14647c0cc20">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\iNEMO_I2C_Driver.h"/>
+         <include file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\iNEMO_SPI_Driver.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\list.h" lastModified="1459447b2d0">
+      </source>
+      <source file="..\..\..\..\..\Sensor_Libraries\L3Gx\src\L3Gx.c" lastModified="1464c787830">
+         <include file="..\..\..\..\..\Sensor_Libraries\L3Gx\inc\L3Gx.h"/>
+      </source>
+      <source file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\HAL_LSM303DLHC.h" lastModified="1464ddc55c0">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\iNEMO_I2C_Driver.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\portable\GCC\ARM_CM3\portmacro.h" lastModified="1459447baa0">
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\src\otgd_fs_cal.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_cal.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\usb_conf.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_regs.h"/>
+      </source>
+      <source file="..\..\..\..\..\Sensor_Libraries\LSM303DLHC\src\LSM303DLHC.c" lastModified="1464c59bd00">
+         <include file="..\..\..\..\..\Sensor_Libraries\LSM303DLHC\inc\LSM303DLHC.h"/>
+      </source>
+      <source file="..\..\..\..\Source\stm32f10x_it.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\mpu_wrappers.h" lastModified="1459447b2d0">
+      </source>
+      <source file="..\..\..\..\Source\stm32f10x_it.c" lastModified="1454abab810">
+         <include file="..\..\..\..\Source\stm32f10x_it.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="146233a3620">
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h" lastModified="1454abab810">
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_int.h" lastModified="1454abab810">
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\HAL_LPS331AP.h" lastModified="1464ddc55c0">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\iNEMO_I2C_Driver.h"/>
+         <include file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\iNEMO_SPI_Driver.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_dev.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_type.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\croutine.h" lastModified="1459447b2d0">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\list.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_regs.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_type.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\Sensor_Libraries\LPS331AP\src\LPS331AP.c" lastModified="1466c4f70a0">
+         <include file="..\..\..\..\..\Sensor_Libraries\LPS331AP\inc\LPS331AP.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\src\usb_mem.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_type.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\iNEMO_SPI_Driver.h" lastModified="1464813ddc0">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\task.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Istr.h" lastModified="1464d3aaef0">
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_regs.h" lastModified="1454abab810">
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_sil.h" lastModified="1454abab810">
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Prop.h" lastModified="1464d325250">
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\src\STM32F1_VC_Endp.c" lastModified="1464d325250">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Desc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\Source\runtime\system_stm32f10x.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_init.h" lastModified="1454abab810">
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Desc.h" lastModified="1464c49bf40">
+         <include file="..\..\..\..\Source\STM32F1_VC_Conf.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\event_groups.h" lastModified="1459447b2d0">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\timers.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\iNEMO_I2C_Driver.h" lastModified="14648099cc0">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\src\STM32F1_VC_Istr.c" lastModified="1464d35ccf0">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Prop.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Pwr.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Istr.h"/>
+      </source>
+      <source file="..\..\..\..\Source\FreeRTOSConfig.h" lastModified="1454abab810">
+      </source>
+      <source file="..\..\..\..\Source\stm32f10x_conf.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\src\STM32F1_VC_Prop.c" lastModified="1464d35ccf0">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Prop.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_General.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Pwr.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\usb_conf.h" lastModified="1464d4f0210">
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\src\STM32F1_VC_Desc.c" lastModified="1464c4254d0">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Desc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\src\STM32F1_VC_Pwr.c" lastModified="1464d35ccf0">
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Pwr.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_General.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\Source\iNEMO_Gatekeeper\UsbGatekeeper.c" lastModified="1464c6628b0">
+         <include file="..\..\..\..\Source\iNEMO_Gatekeeper\iNemoGatekeeper.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_General.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\semphr.h" lastModified="1459447b2d0">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\queue.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\timers.h" lastModified="1459447b2d0">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\task.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_pcd.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_regs.h"/>
+      </source>
+      <source file="..\..\..\..\Source\STM32F1_VC_Conf.h" lastModified="1464be24ae0">
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\src\otgd_fs_dev.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_dev.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_regs.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_cal.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_pcd.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_mem.h" lastModified="1454abab810">
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\croutine.c" lastModified="1459447b2d0">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\task.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\croutine.h"/>
+      </source>
+      <source file="..\..\..\..\Source\iNemo_Led\iNemoLed.h" lastModified="146489959a0">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\src\usb_core.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\..\Source\iNemo_Led\iNemoLed.c" lastModified="146489959a0">
+         <include file="..\..\..\..\Source\iNemo_Led\iNemoLed.h"/>
+         <include file="..\..\..\..\Source\iNEMO_Conf\iNemoConf.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_cal.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_type.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h" lastModified="1454abab810">
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\Source\iNEMO_Conf\iNemoConf.h" lastModified="146487f78a0">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\task.h"/>
+      </source>
+      <source file="..\..\..\..\Source\utils.h" lastModified="1464c3c2ab0">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\Source\utils.c" lastModified="1464d1f5ec0">
+         <include file="..\..\..\..\Source\utils.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_def.h" lastModified="1454abab810">
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_int.h" lastModified="1454abab810">
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\portable\GCC\ARM_CM3\port.c" lastModified="1459447baa0">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\task.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\src\usb_regs.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\StackMacros.h" lastModified="1459447b2d0">
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\src\usb_int.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\queue.h" lastModified="1459447b2d0">
+      </source>
+      <source file="..\..\..\..\Source\iNEMO_Gatekeeper\iNemoGatekeeper.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\task.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\queue.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\projdefs.h" lastModified="1459447b2d0">
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_General.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Desc.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Istr.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_cec.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\iNEMO_Compass\inc /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System\CoIDE\cmsis /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System\Source\iNEMO_Lib /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\Sensor_Libraries\L3Gx\inc /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\STM32F1_VirtualCom\Source\inc /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\iNEMO_AHRS_v121\inc /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System\Source\iNEMO_Conf /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\Sensor_Libraries\LSM303DLHC\inc /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\Sensor_Libraries\L3Gx /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\FreeRTOS\Source\portable\GCC\ARM_CM3 /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System\Source /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System\Source\iNemo_Led /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\iNEMO_AHRS_v121 /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\FreeRTOS\Source\portable /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\ahrs_test\M1_Discovery_System /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\Sensor_Libraries\LSM303DLHC /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\Sensor_Libraries /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System\Source\iNEMO_Handlers /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\ahrs_test\iNEMO_M1_DFU\Source\iNEMO_Button /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System\CoIDE /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\STM32F10x_StdPeriph_Lib\Source\Libraries /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\STM32F1_VirtualCom /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\Sensor_Libraries\LPS331AP\inc /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\FreeRTOS\Source\include /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\STM32_USB-FS-Device_Lib\Source\Libraries /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System\Source\iNEMO_Gatekeeper /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\iNEMO_M1_SensorDrivers /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\iNEMO_M1_SensorDrivers\Source\inc /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\STM32F1_VirtualCom\Source /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\ahrs_test\M1_Discovery_System\Source /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\iNEMO_M1_SensorDrivers\Source /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\FreeRTOS\Source /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System\Source\iNemo_Core /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\ahrs_test\iNEMO_M1_DFU\Source /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\ahrs_test\iNEMO_M1_DFU\Source\iNEMO_Button\inc /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\iNEMO_Compass /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\FreeRTOS\Source\portable\GCC /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\FreeRTOS /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\ahrs_test /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\M1_Discovery_System\CoIDE\cmsis_boot /I..\..\..\..\..\Users\HP\Documents\EPFL\3ème année\Bachelor project\MCU_DEV\complete_folder\Sensor_Libraries\LPS331AP">
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\src\otgd_fs_pcd.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_cal.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_pcd.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Pwr.h" lastModified="1464d405c10">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\src\usb_init.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\task.h" lastModified="1459447c270">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\list.h"/>
+      </source>
+      <source file="..\..\..\..\Source\iNemo_Core\iNemo.h" lastModified="1464ce53038">
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\src\usb_sil.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\..\Source\iNemo_Core\iNemo.c" lastModified="15c8d7ddd8b">
+         <include file="..\..\..\..\Source\iNemo_Core\iNemo.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\task.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\queue.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\semphr.h"/>
+         <include file="..\..\..\..\Source\iNEMO_Handlers\iNemoHandlers.h"/>
+         <include file="..\..\..\..\Source\utils.h"/>
+         <include file="..\..\..\..\Source\iNEMO_Lib\iNemoLib.h"/>
+         <include file="..\..\..\..\Source\iNEMO_Gatekeeper\iNemoGatekeeper.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\HAL_L3Gx.h" lastModified="14647c0cc20">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\iNEMO_I2C_Driver.h"/>
+         <include file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\iNEMO_SPI_Driver.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\src\iNemo_SPI_Driver.c" lastModified="1464d325638">
+         <include file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\iNEMO_SPI_Driver.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\list.h" lastModified="1459447b2d0">
+      </source>
+      <source file="..\..\..\..\..\Sensor_Libraries\L3Gx\src\L3Gx.c" lastModified="1464c787830">
+         <include file="..\..\..\..\..\Sensor_Libraries\L3Gx\inc\L3Gx.h"/>
+      </source>
+      <source file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\HAL_LSM303DLHC.h" lastModified="1464ddc55c0">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\iNEMO_I2C_Driver.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\portable\GCC\ARM_CM3\portmacro.h" lastModified="1459447baa0">
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\src\otgd_fs_cal.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_cal.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\usb_conf.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_regs.h"/>
+      </source>
+      <source file="..\..\..\..\..\Sensor_Libraries\LSM303DLHC\src\LSM303DLHC.c" lastModified="1464c59bd00">
+         <include file="..\..\..\..\..\Sensor_Libraries\LSM303DLHC\inc\LSM303DLHC.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\src\STM32F1_VC_General.c" lastModified="1464ced6d98">
+         <include file="..\..\..\..\Source\stm32f10x_it.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\usb_conf.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_General.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Desc.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Istr.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Prop.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Pwr.h"/>
+         <include file="..\..\..\..\Source\STM32F1_VC_Conf.h"/>
+      </source>
+      <source file="..\..\..\..\Source\stm32f10x_it.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\mpu_wrappers.h" lastModified="1459447b2d0">
+      </source>
+      <source file="..\..\..\..\Source\stm32f10x_it.c" lastModified="1454abab810">
+         <include file="..\..\..\..\Source\stm32f10x_it.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\portable.h" lastModified="14594486e50">
+         <include file="..\..\..\..\..\FreeRTOS\Source\portable\GCC\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\portable\GCC\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\portable\GCC\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\portable\IAR\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\portable\IAR\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\portable\GCC\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\portable\GCC\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\portable\GCC\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\portable\GCC\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\portable\GCC\ARM_CM3\portmacro.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\mpu_wrappers.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\src\otgd_fs_int.c" lastModified="1454ababfe0">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_type.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_int.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\..\Source\iNEMO_Handlers\iNemoHandlers.h" lastModified="1466ccf6a58">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\Source\iNEMO_Lib\iNemoLib.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\task.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\queue.h"/>
+         <include file="..\..\..\..\Source\iNEMO_Gatekeeper\iNemoGatekeeper.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\Source\iNEMO_Handlers\iNemoHandlers.c" lastModified="1466c2dbbb8">
+         <include file="..\..\..\..\Source\iNEMO_Handlers\iNemoHandlers.h"/>
+         <include file="..\..\..\..\Source\utils.h"/>
+         <include file="..\..\..\..\Source\iNemo_Core\iNemo.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_hd.c" lastModified="146233a3620">
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h" lastModified="1454abab810">
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_int.h" lastModified="1454abab810">
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\HAL_LPS331AP.h" lastModified="1464ddc55c0">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\iNEMO_I2C_Driver.h"/>
+         <include file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\iNEMO_SPI_Driver.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_dev.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_type.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\croutine.h" lastModified="1459447b2d0">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\list.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_regs.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_type.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\FreeRTOS.h" lastModified="1459447baa0">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\projdefs.h"/>
+         <include file="..\..\..\..\Source\FreeRTOSConfig.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\portable.h"/>
+      </source>
+      <source file="..\..\..\..\..\Sensor_Libraries\LPS331AP\src\LPS331AP.c" lastModified="1466c4f70a0">
+         <include file="..\..\..\..\..\Sensor_Libraries\LPS331AP\inc\LPS331AP.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="146233a2298">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\portable\MemMang\heap_2.c" lastModified="1459447be88">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\task.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\queue.c" lastModified="1459447ca40">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\task.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\queue.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\croutine.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\src\usb_mem.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_type.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\usb_conf.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\iNEMO_Compass\src\iNEMO_Compass.c" lastModified="1464c5c2a18">
+         <include file="..\..\..\..\..\iNEMO_Compass\inc\iNEMO_Compass.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\iNEMO_SPI_Driver.h" lastModified="1464813ddc0">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\task.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Istr.h" lastModified="1464d3aaef0">
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\ahrs_test\iNEMO_M1_DFU\Source\iNEMO_Button\inc\iNEMO_Button.h" lastModified="13fc7a26c70">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_regs.h" lastModified="1454abab810">
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_sil.h" lastModified="1454abab810">
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Prop.h" lastModified="1464d325250">
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\src\STM32F1_VC_Endp.c" lastModified="1464d325250">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Desc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\event_groups.c" lastModified="1459447b6b8">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\task.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\timers.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\event_groups.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\Source\runtime\system_stm32f10x.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_init.h" lastModified="1454abab810">
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Desc.h" lastModified="1464c49bf40">
+         <include file="..\..\..\..\Source\STM32F1_VC_Conf.h"/>
+      </source>
+      <source file="..\..\..\..\..\Sensor_Libraries\LSM303DLHC\inc\LSM303DLHC.h" lastModified="1464db04098">
+         <include file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\HAL_LSM303DLHC.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h" lastModified="1454ababbf8">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_type.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_regs.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_def.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_core.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_init.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_mem.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_int.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_sil.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_cal.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_pcd.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_dev.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_int.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\event_groups.h" lastModified="1459447b2d0">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\timers.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h" lastModified="1454ababbf8">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h"/>
+         <include file="..\..\..\..\Source\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\iNEMO_I2C_Driver.h" lastModified="14648099cc0">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\src\STM32F1_VC_Istr.c" lastModified="1464d35ccf0">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Prop.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Pwr.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Istr.h"/>
+      </source>
+      <source file="..\..\..\..\Source\FreeRTOSConfig.h" lastModified="1454abab810">
+      </source>
+      <source file="..\..\..\..\..\iNEMO_AHRS_v121\src\iNEMO_AHRS_MemMan_2.c" lastModified="14647d42158">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+      </source>
+      <source file="..\..\..\..\Source\stm32f10x_conf.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\..\Source\iNEMO_Lib\iNemoLib.h" lastModified="1466c3d9a38">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\Source\iNEMO_Conf\iNemoConf.h"/>
+         <include file="..\..\..\..\Source\utils.h"/>
+         <include file="..\..\..\..\..\iNEMO_AHRS_v121\inc\iNEMO_AHRS.h"/>
+         <include file="..\..\..\..\..\iNEMO_Compass\inc\iNEMO_Compass.h"/>
+         <include file="..\..\..\..\..\Sensor_Libraries\LSM303DLHC\inc\LSM303DLHC.h"/>
+         <include file="..\..\..\..\..\Sensor_Libraries\L3Gx\inc\L3Gx.h"/>
+         <include file="..\..\..\..\..\Sensor_Libraries\LPS331AP\inc\LPS331AP.h"/>
+         <include file="..\..\..\..\Source\iNemo_Led\iNemoLed.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h"/>
+      </source>
+      <source file="..\..\..\..\Source\iNEMO_Lib\iNemoLib.c" lastModified="1466c355cd8">
+         <include file="..\..\..\..\Source\iNEMO_Lib\iNemoLib.h"/>
+         <include file="..\..\..\..\Source\iNEMO_Conf\iNemoConf.h"/>
+         <include file="..\..\..\..\Source\utils.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\src\STM32F1_VC_Prop.c" lastModified="1464d35ccf0">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Prop.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_General.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Pwr.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\usb_conf.h" lastModified="1464d4f0210">
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\ahrs_test\iNEMO_M1_DFU\Source\iNEMO_Button\src\iNEMO_Button.c" lastModified="13fc7a26c70">
+         <include file="..\..\..\..\..\..\ahrs_test\iNEMO_M1_DFU\Source\iNEMO_Button\inc\iNEMO_Button.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="146233a2680">
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\timers.c" lastModified="1459447c658">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\task.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\queue.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\timers.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\src\STM32F1_VC_Desc.c" lastModified="1464c4254d0">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Desc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\src\STM32F1_VC_Pwr.c" lastModified="1464d35ccf0">
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Pwr.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_General.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\Source\iNEMO_Gatekeeper\UsbGatekeeper.c" lastModified="1464c6628b0">
+         <include file="..\..\..\..\Source\iNEMO_Gatekeeper\iNemoGatekeeper.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_General.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\semphr.h" lastModified="1459447b2d0">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\queue.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\timers.h" lastModified="1459447b2d0">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\task.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_pcd.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_regs.h"/>
+      </source>
+      <source file="..\..\..\..\Source\STM32F1_VC_Conf.h" lastModified="1464be24ae0">
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\src\otgd_fs_dev.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_dev.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_regs.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_cal.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_pcd.h"/>
+      </source>
+      <source file="..\..\..\..\..\iNEMO_Compass\inc\iNEMO_Compass.h" lastModified="1454ababfe0">
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\portable\IAR\ARM_CM3\portmacro.h" lastModified="1459447be88">
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\list.c" lastModified="1459447b6b8">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\list.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_mem.h" lastModified="1454abab810">
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\croutine.c" lastModified="1459447b2d0">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\task.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\croutine.h"/>
+      </source>
+      <source file="..\..\..\..\Source\iNemo_Led\iNemoLed.h" lastModified="146489959a0">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\src\usb_core.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\..\Source\iNemo_Led\iNemoLed.c" lastModified="146489959a0">
+         <include file="..\..\..\..\Source\iNemo_Led\iNemoLed.h"/>
+         <include file="..\..\..\..\Source\iNEMO_Conf\iNemoConf.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_cal.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_type.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h" lastModified="1454abab810">
+      </source>
+      <source file="..\..\..\..\..\iNEMO_AHRS_v121\inc\iNEMO_AHRS.h" lastModified="1464d1a1b18">
+      </source>
+      <source file="..\..\..\..\..\Sensor_Libraries\LPS331AP\inc\LPS331AP.h" lastModified="1468b6eade8">
+         <include file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\HAL_LPS331AP.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\Source\iNEMO_Conf\iNemoConf.h" lastModified="146487f78a0">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\task.h"/>
+      </source>
+      <source file="..\..\..\..\Source\utils.h" lastModified="1464c3c2ab0">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\Source\utils.c" lastModified="1464d1f5ec0">
+         <include file="..\..\..\..\Source\utils.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_def.h" lastModified="1454abab810">
+      </source>
+      <source file="..\..\..\..\..\Sensor_Libraries\L3Gx\inc\L3Gx.h" lastModified="1464db4a598">
+         <include file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\HAL_L3Gx.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\otgd_fs_int.h" lastModified="1454abab810">
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="146233f00b0">
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\portable\GCC\ARM_CM3\port.c" lastModified="1459447baa0">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\task.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\src\usb_regs.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\StackMacros.h" lastModified="1459447b2d0">
+      </source>
+      <source file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\src\usb_int.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32_USB-FS-Device_Lib\Source\Libraries\STM32_USB-FS-Device_Driver\inc\usb_lib.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\tasks.c" lastModified="1459447d210">
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\task.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\timers.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\StackMacros.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\queue.h" lastModified="1459447b2d0">
+      </source>
+      <source file="..\..\..\..\Source\iNEMO_Gatekeeper\iNemoGatekeeper.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\task.h"/>
+         <include file="..\..\..\..\..\FreeRTOS\Source\include\queue.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="146233a2680">
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\FreeRTOS\Source\include\projdefs.h" lastModified="1459447b2d0">
+      </source>
+      <source file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_General.h" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Desc.h"/>
+         <include file="..\..\..\..\..\STM32F1_VirtualCom\Source\inc\STM32F1_VC_Istr.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_cec.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h"/>
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c" lastModified="1454abab810">
+         <include file="..\..\..\..\..\STM32F10x_StdPeriph_Lib\Source\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h"/>
+      </source>
+      <source file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\src\iNEMO_I2C_Driver.c" lastModified="1464d1f62a8">
+         <include file="..\..\..\..\..\iNEMO_M1_SensorDrivers\Source\inc\iNEMO_I2C_Driver.h"/>
+      </source>
+   </includePath>
+</dependencies>
